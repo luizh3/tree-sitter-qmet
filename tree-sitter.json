@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "qmet",
+      "camelcase": "Qmet",
+      "title": "Qmet",
+      "scope": "source.qmet",
+      "file-types": [
+        "qmet"
+      ],
+      "injection-regex": "^qmet$",
+      "class-name": "TreeSitterQmet"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Qmet grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Luiz H."
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-qmet"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
