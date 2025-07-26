@@ -1,8 +1,8 @@
 # tree-sitter-qmet
 
-A Tree-sitter grammar for QML Snippets.
+A Tree-sitter grammar for QMet.
 
-This project provides an implementation of the QML Snippets grammar for the incremental parser [Tree-sitter](https://tree-sitter.github.io/tree-sitter/), enabling efficient syntax analysis and integration with various languages and tools.
+This project provides an implementation of the QMet grammar for the incremental parser [Tree-sitter](https://tree-sitter.github.io/tree-sitter/), enabling efficient syntax analysis and integration with various languages and tools.
 
 ## Installation
 
